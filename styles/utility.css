@@ -18,8 +18,21 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.gap24{
+
+.gap-24{
     gap: 24px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-12{
+    gap: 12px;
+}
+
+.gap-8{
+    gap: 8px;
 }
 
 .title-lg{
@@ -45,6 +58,11 @@
 .subtitle-2{
     font: var(--subtitle);
     color: var(--red);
+}
+
+.subtitle-3{
+    font: var(--subtitle);
+    color: var(--purple);
 }
 
 .text-md{

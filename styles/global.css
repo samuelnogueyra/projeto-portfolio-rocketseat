@@ -43,26 +43,12 @@ body{
     background-size: 100% 100%;
 }
 
-ul{
-    list-style: none;
-    gap: 16px;
-}
-
-li{
-    background-color: var(--gray-400);
-    padding: 8px 16px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-}
-
-li img{
-    width: 24px;
-    aspect-ratio: 1/1;
-    margin-right: 8px;
-}
-
 #card{
     width: 1040px;
+    margin: auto;
+}
+
+#card-services{
+    width: 888px;
     margin: auto;
 }
