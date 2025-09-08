@@ -10,6 +10,18 @@
     flex-direction: row;
 }
 
+.grid{
+    display: grid;
+}
+
+.grid-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap24{
+    gap: 24px;
+}
+
 .title-lg{
     font: var(--title-lg);
     color: var(--gray-100);
@@ -22,6 +34,7 @@
 
 .title-sm{
     font: var(--title-sm);
+    color: var(--gray-100);
 }
 
 .subtitle{
@@ -29,7 +42,7 @@
     color: var(--gray-200);
 }
 
-.subtitle-main{
+.subtitle-2{
     font: var(--subtitle);
     color: var(--red);
 }
@@ -42,6 +55,11 @@
 .text-sm{
     font: var(--text-sm);
     color: var(--gray-300);
+}
+
+.text-sm-2{
+    font: var(--text-sm);
+    color: var(--gray-200);
 }
 
 .destaque{

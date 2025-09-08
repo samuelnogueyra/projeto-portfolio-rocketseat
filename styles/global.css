@@ -61,3 +61,8 @@ li img{
     aspect-ratio: 1/1;
     margin-right: 8px;
 }
+
+#card{
+    width: 1040px;
+    margin: auto;
+}

@@ -1,24 +1,23 @@
-section{
-    header{
-        text-align: center;
-        width: 680px;
+header{
+    text-align: center;
+    width: 680px;
 
-        img{
-            width: 112px;
-            aspect-ratio: 1/1;
-            object-fit: cover;
-            margin-block: 120px 56px;
-        }
-
-        h1{
-            margin-block: 8px 20px;
-        }
+    img{
+        width: 112px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        margin-block: 120px 56px;
     }
 
-    nav{
-        margin-block: 80px 94px;
+    h1{
+        margin-block: 8px 20px;
     }
 }
+
+nav{
+    margin-block: 80px 94px;
+}
+
 
 main{
     padding: 72px 120px 144px 120px;
@@ -27,4 +26,25 @@ main{
         margin-bottom: 56px;
         gap: 8px;
     }
+
+    figure{
+        background-color: var(--gray-400);
+        border-radius: 12px;
+        padding: 12px;
+
+        img{
+            border-radius: 8px;
+            width: 306px;
+        }
+
+        h2{
+            padding-block: 24px 8px;
+        }
+
+    }
+
+    figure:hover{
+        background-color: var(--gray-300);
+    }
 }
+
