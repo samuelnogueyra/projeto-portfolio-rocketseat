@@ -1,16 +1,18 @@
-header{
-    text-align: center;
-    width: 680px;
+section{
+    header{
+        text-align: center;
+        width: 680px;
 
-    img{
-        width: 112px;
-        aspect-ratio: 1/1;
-        object-fit: cover;
-        margin-block: 120px 56px;
-    }
+        img{
+            width: 112px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            margin-block: 120px 56px;
+        }
 
-    h1{
-        margin-block: 8px 20px;
+        h1{
+            margin-block: 8px 20px;
+        }
     }
 }
 
@@ -47,4 +49,3 @@ main{
         background-color: var(--gray-300);
     }
 }
-
