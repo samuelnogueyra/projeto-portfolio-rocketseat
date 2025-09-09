@@ -11,12 +11,14 @@ O objetivo foi criar um **portfólio de desenvolvedora fullstack**, aplicando co
 ---
 
 ## ✨ Funcionalidades
-- 🎨 **Design Responsivo** – adaptado para diferentes tamanhos de tela.  
-- 🧩 **Seções bem organizadas** – introdução, projetos, serviços e contato.  
-- 🎭 **Animações de hover** – transições suaves em ícones e cards.  
-- 🖼️ **Imagens otimizadas** – miniaturas e ícones SVG para melhor performance.  
+- Estrutura completa de portfólio:
+  - 📌 Seção de introdução  
+  - 📂 Projetos em destaque  
+  - 🛠️ Serviços oferecidos  
+  - 📬 Contato e redes sociais  
+- Efeitos visuais com **hover** em botões, ícones e cards.  
+- Paleta de cores definida com **variáveis CSS**. 
 
----
 
 ## 🛠️ Tecnologias utilizadas
 - **HTML5**
